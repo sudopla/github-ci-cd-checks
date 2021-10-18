@@ -1,0 +1,21 @@
+
+# CDK/Typescript
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+cdk.out
+
+
+# Environment Variables and settings
+.envrc
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+
+# Notebooks
+*.ipynb

@@ -1,0 +1,11 @@
+PyGithub
+slack-sdk
+boto3
+boto3-stubs
+
+# linters
+black
+mypy_extensions
+mypy
+flake8
+pylint

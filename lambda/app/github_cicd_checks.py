@@ -90,7 +90,7 @@ class GithubCiCdChecks:
         latest_release_date = latest_release_branch.commit.commit.author.date
 
         # Get commits to default branch (main) after release branch was created
-        # and less than continous delivery frequency hours
+        # and less than continuos delivery frequency hours
         until_date = datetime.utcnow() - timedelta(hours=cd_frequency_hours)
         commits = git_repo.get_commits(since=latest_release_date, until=until_date)
 
